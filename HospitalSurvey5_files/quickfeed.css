@@ -1,0 +1,57 @@
+/* CSS Document */
+.rounded-box{
+ border-radius:25px;
+ -moz-border radius:25px; /* Firefox 3.6 and earlier */  
+ padding:5px;
+}
+.floatleft{ float:left}
+
+#outerdiv{
+
+	background-color:#666666;
+	border:#0066FF solid 4px;
+	height:auto;
+	overflow:hidden;
+	width:90%;
+	margin:0 auto;
+}
+#headerdiv{
+
+	background:none;
+	width:98%;
+	margin:0px auto;
+	margin-bottom:10px;
+
+}
+#pfis{
+
+	width:75%;
+	height:0;
+/*	float:right; */
+	background-color:#990000;
+	border:#FBFAEA solid  3px;
+	height:auto;
+	overflow:hidden;
+	text-align:center;
+	font-size:2em;
+	color:#FFFFFF;
+	margin-left:10%;
+
+
+}#logo{
+/*	border:#0066FF solid 2px;*/
+	color:#CCCCCC;
+/*	height:100%;*/
+	width:20%;
+	
+
+}
+#middlediv{
+width:100%;
+margin-top:10px;
+
+}
+
+#footerdiv{float:left; width:50%; margin-left:25%;}
+#footerdiv .ui-btn{width:40%;}
+
